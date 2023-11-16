@@ -1,0 +1,95 @@
+body {
+    background-image: url('images/cinemabg.jpg');
+}
+
+.header {
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(118, 12, 84);
+    background-image: url('images/header.jpeg');
+    color: rgb(238, 234, 241);
+    font-size: 150%;
+    padding-right: 10%;
+    position: sticky;
+    top: 0;
+}
+#logo{
+    border-color: black;
+    margin-top: 20px;
+}
+#heading {
+    color: rgb(169, 6, 131);
+    text-shadow: 5px 3px 7px rgb(156, 118, 138);
+
+}
+
+nav {
+    font-size: large;
+    background-image: url('images/navimg.png');
+    text-align: left;
+    padding: 8px;
+}
+
+a {
+    border-style: outset;
+    background-color: rgb(227, 54, 161);
+    border-color: rgb(12, 2, 2);
+    border-width: 1px;
+    color: azure;
+    padding: 3px;
+}
+
+.content {
+    color: azure;
+    font-size: 150%;
+    text-align: center;
+}
+
+#telmovie,#hinmovie,#tammovie {
+    border-style: groove;
+    border-width: 1%;
+    border-radius: 13%;
+    border-color: rgb(249, 7, 136);
+    box-shadow: 3px 5px 7px rgb(195, 149, 185);
+}
+
+a:hover {
+    background-color: rgb(94, 14, 70);
+}
+
+
+.telugu.hover{
+    transform: scale(4,3);
+}
+
+.telugu {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#telmovie {
+    margin-left: 5%;
+}
+
+.hindi {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#hinmovie {
+    margin-left: 5%;
+}
+
+.tamil {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+#tammovie {
+    margin-left: 5%;
+}
+
+footer {
+    background-color: black;
+    padding: 1%;
+}

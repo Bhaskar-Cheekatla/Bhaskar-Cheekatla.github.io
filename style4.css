@@ -1,0 +1,66 @@
+body
+{
+    /* background-image: radial-gradient(white, rgb(175, 252, 175)); */
+    background-image: radial-gradient(white, rgb(175, 252, 175));
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+h1
+{
+    text-align:center;
+}
+#cap{
+    color:green;
+    margin-bottom: 5%;
+}
+
+.forms
+{
+    max-width:600px;
+    background-color: transparent;
+    color:green;
+    padding:20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 20%;
+    padding-right: 3%;
+    border-style: solid;
+    border-color: rgb(13, 14, 13);
+    border-width: 0px 0.5px 0.5px 0px;
+    box-shadow:  -4px -4px 4px rgba(0,0,0,0.4);
+}
+.form-group
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+input
+{
+    width:300px;
+    height:30px;
+    padding:5px;
+}
+label
+{
+    display: block;
+    margin: 5px;
+    font-size: 20px;
+}
+button
+{
+    background: rgb(10, 157, 44);
+    border: none;
+    color:#fff;
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-group
+{
+    text-align: center;
+    margin-top: 20px;
+
+}

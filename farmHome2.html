@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Help</title>
+    <link href="farmstyle2.css" rel="stylesheet">
+    <link rel="icon" href="images/farmlogo3.jpeg" type="image/x-icon">
+    
+    <script>
+        function toggleDrawer() {
+          var drawer = document.getElementById("myDrawer");
+          drawer.classList.toggle("open");
+        }
+        </script>
+
+<style>
+
+    
+
+  </style>
+    
+</head>
+
+<body>
+    <div class="title">
+                <!-- <img id="logo" src="images/farmlogo3.jpeg" width="35px" height="35px"> -->
+
+                <!-- <div class="navbar"> -->
+                
+                <!-- </div> -->
+        <div class="container">
+            <div class="navbar">
+                <span class="open-drawer" onclick="toggleDrawer()">&#9776; <span id="heading">Farm Web</span></span>
+                <!-- <h1 id="heading">Farm Help Website</h1> -->
+                <nav>
+                    <a id="navlink" href="#"><img src="images/avatar4.png" width="50px" height="50px" style="border-radius: 50%;"></a>
+                    <a id="navlink" href="farmAboutUs.html">About us</a>
+                </nav>
+            </div>
+            <div id="myDrawer" class="drawer">
+                <ul>
+                <li><a href="cropSelector.html">Crop selector</a></li>
+                <li><a href="farmDisease.html">Diseases</a></li>
+                <li><a href="farmAboutUs.html">Contact us</a></li>
+                <li><a href="farm_help.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="container1">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="images/farmHomeSlide1.webp" width="1520" height="335">
+              <div class="text">Farming should be a passion</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="images/farmHomeSlide2.webp" width="1520" height="335">
+              <div class="text">Fall in love with soil</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="images/farmHomeSlide3.webp" width="1520" height="335">
+              <div class="text">Farmers are the one's who can nuture the land and feed tha nation</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <img src="images/farmHomeSlide4.jpg" width="1520" height="335">
+              <div class="text">Plant growth</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 5</div>
+              <img src="images/farmbg3.jpg" width="1550" height="350">
+              <div class="text">India is the second largest Rice-producing country in the world</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+          <script>
+            let slideIndex = 0;
+            let timeoutId = null;
+            const slides = document.getElementsByClassName("mySlides");
+            const dots = document.getElementsByClassName("dot");
+            
+            showSlides();
+            function currentSlide(index) {
+                 slideIndex = index;
+                 showSlides();
+            }
+           function plusSlides(step) {
+              
+              if(step < 0) {
+                  slideIndex -= 2;
+                  
+                  if(slideIndex < 0) {
+                    slideIndex = slides.length - 1;
+                  }
+              }
+              
+              showSlides();
+           }
+            function showSlides() {
+              for(let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                dots[i].classList.remove('active');
+              }
+              slideIndex++;
+              if(slideIndex > slides.length) {
+                slideIndex = 1
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].classList.add('active');
+               if(timeoutId) {
+                  clearTimeout(timeoutId);
+               }
+              timeoutId = setTimeout(showSlides, 5000); // Change image every 5 seconds
+            }
+          </script>
+    
+        <h1 id="wel"><img src="images/happyFarmer-removebg-preview.png" width="300px" height="300px">Welcome to our Farm Help Website<br>
+            this is your go-to destination<br> for crop suitability decisions!</h1>
+        <!-- <p id="q1"> Our website is designed to assist
+            farmers, gardeners, and enthusiasts in making<br> informed decisions about which crops are best suited for their
+            specific use cases. </p> -->
+    </div><br><br><br>
+
+    <!-- <div class="btn">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a  href="farmLogin.html"><button id="login">Log In</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a  href="farmsignup.html"><button id="Signup">Sign Up</button></a>
+    </div><br> -->
+    <p id="dolist">✅ Here you can identify which crop is suitable for your land just by one click. <br>✅ We will also help you to save your crop from harmful diseases.</p>
+<footer class="copyright">
+  <p>&copy; 2023 Farmweb Website. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

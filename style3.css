@@ -1,0 +1,91 @@
+body
+{
+    /* background-image:url('images/loginbg2.jpg'); */
+    background-image: radial-gradient(white, rgb(175, 252, 175));
+    
+    margin-top: 3%;
+}
+h1
+{
+    text-align:center;
+}
+#cap{
+    color:green;
+    margin-bottom: 5%;
+}
+.forms
+{
+    max-width:400px;
+    margin:auto;
+    /* background-color:forestgreen; */
+    background-color: transparent;
+    color:green;
+    padding:20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 20%;
+    padding-right: 5%;
+    border-style: solid;
+    border-color: rgb(13, 14, 13);
+    border-width: 0px 0.5px 0.5px 0px;
+    box-shadow:  -4px -4px 4px rgba(0,0,0,0.4);
+}
+.form-group
+{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+input
+{
+    width:300px;
+    height:29px;
+    padding:5px;
+    margin-bottom: 8%;
+}
+
+label
+{
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+button
+{
+    background: rgb(34, 118, 219);
+    color:#fff;
+    padding: 10px 160px 10px 150px;
+    font-size: 18px;
+    margin-left: 12%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-group
+{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.input-container {
+    position: relative;
+  }
+  
+  label {
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 2px;
+  }
+  
+  input {
+    border: 2px solid black;
+    padding: 5px;
+  }
+
+  p{
+    margin-left: 23%;
+    color: black;
+  }
+  

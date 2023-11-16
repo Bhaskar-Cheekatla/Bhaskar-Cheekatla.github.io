@@ -1,0 +1,71 @@
+body
+{
+    background-image:url('images/farmHomeSlide3.webp');
+    /* background-image: radial-gradient(white, rgb(175, 252, 175)); */
+    
+    margin-top: 3%;
+}
+h1
+{
+    text-align:center;
+}
+#cap{
+    color:beige;
+    margin-bottom: 5%;
+    text-shadow: 0 0 2px #111808, 0 0 0px #0c4925; 
+}
+.forms
+{
+    max-width:400px;
+    margin:auto;
+    background-color: rgba(1,1,1,0.6);
+    color:beige;
+    text-shadow: 0 0 2px #111808, 0 0 0px #0c4925; 
+    padding:20px;
+    border-radius: 8px;
+    margin-top: 8%;
+    float: right;
+    margin-right: 33%;
+    padding-right: 5%;
+    border-style: solid;
+    border-color: rgb(13, 14, 13);
+    border-width: 0px 0.5px 0.5px 0px;
+    box-shadow:  -4px -4px 4px rgba(0,0,0,0.4);
+    padding-bottom: 5%;
+}
+.form-group
+{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+input
+{
+    width:300px;
+    height:29px;
+    padding:5px;
+    margin-bottom: 8%;
+}
+
+label
+{
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 5%;
+}
+button
+{
+    background: rgb(34, 118, 219);
+    color:#fff;
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-left: 12%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8%;
+}
+.btn-group
+{
+    text-align: center;
+    margin-top: 20px;
+}
