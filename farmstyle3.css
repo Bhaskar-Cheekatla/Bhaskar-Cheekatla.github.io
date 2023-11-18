@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/farmbg7.jpg');
+    background-image: url('farmbg7.jpg');
     /* background-image: radial-gradient(white,rgb(175, 252, 175)); */
 }
 *{
@@ -54,14 +54,7 @@ nav{
     color:beige;
     text-shadow: 0 0 7px #111808, 0 0 5px #0c4925;
 }
-/* #login:hover{
-    background-color: rgb(16, 70, 16);
-    cursor:pointer;
-}
-#Signup:hover{
-    background-color: rgb(16, 70, 16);
-    cursor:pointer;
-} */
+
 #dolist{
     text-align: left;
     font-size: 200%;
