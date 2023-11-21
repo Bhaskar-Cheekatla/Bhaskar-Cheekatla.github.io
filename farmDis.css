@@ -13,21 +13,6 @@ body{
     background-attachment: fixed;
     font-family: Arial, sans-serif;
 }
-/* .title{
-    /* background: rgba(169, 246, 97, 0.696);
-    text-align: center;    
-    color: rgb(243, 245, 243);
-    font-style: bold;
-    font-size: 150%;
-    text-shadow: 0 0 3px #111808, 0 0 5px #0c4925;
-    border-style: solid;
-    border-width: 0px 0px 5px 0px;
-    border-color: black;
-    padding:1%;
-    text-align: center;
-    background: rgba(169, 246, 97, 0.696);
-    color: white;
-} */
 
 #title{
     margin-left: 40%;
@@ -79,6 +64,14 @@ h5{
 header {
     background-color: #333;
     padding: 20px;
+  }
+footer {
+    background-color: #040404;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #878484;
+    margin-top: 5%;
   }
 
 #head{
