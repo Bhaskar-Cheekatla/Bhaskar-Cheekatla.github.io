@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+}
+
+body{
+    /* background-image: linear-gradient(white,yellowgreen,green); */
+    background-image: radial-gradient(white, rgb(175, 252, 175));
+    /* opacity: ; */
+    width: auto;
+    height: fit-content;
+    
+    /* background-color: greenyellow; */
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+/* .title{
+    /* background: rgba(169, 246, 97, 0.696);
+    text-align: center;    
+    color: rgb(243, 245, 243);
+    font-style: bold;
+    font-size: 150%;
+    text-shadow: 0 0 3px #111808, 0 0 5px #0c4925;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    padding:1%;
+    text-align: center;
+    background: rgba(169, 246, 97, 0.696);
+    color: white;
+} */
+
+#title{
+    margin-left: 40%;
+    font-size: 200%;
+}
+#logo{
+    border-radius: 50%;
+    margin-top: 0px;
+}
+#tagline{
+    /* background-image: url('images/farmingLady.jpg'); */
+    padding-top: 3%;
+    color: rgb(0, 0, 0);
+    font-size: 350%;
+    /* text-shadow: 0 0 7px #111808, 0 0 5px #0c4925; */
+    padding-bottom: 20%;
+    margin-left: 20%;
+}
+#imgs{
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 10%;
+    border-color: rgb(112, 249, 7);
+    box-shadow: 5px 6px 8px rgb(34, 70, 4);
+    float: right;
+    margin-right: 20%;
+}
+.subhead{
+font-size: 250%;
+color: rgb(1, 14, 2);
+text-align: center;
+margin-top: 5%;
+/* text-shadow: 0 0 7px #111808, 0 0 4px #0c4925; */
+}
+
+h5{
+  font-size: 120%;
+  margin-bottom: 2%;
+}
+/* #imgs{
+    float: right;
+    margin-right: 20%;
+    border-radius: 10%;
+} */
+.riceDis,.wheatDis,.veggieDis,.fruitDis{
+    padding: 2%;
+    font-size: 130%;
+}
+header {
+    background-color: #333;
+    padding: 20px;
+  }
+
+#head{
+    position: sticky;
+    top: 0;
+}
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    background-color: green;
+  }
